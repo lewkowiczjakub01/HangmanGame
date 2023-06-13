@@ -1,0 +1,52 @@
+@function random-color($colors) {
+    $color: null;
+    
+    @for $i from 1 through length($colors) {
+      $color: nth($colors, random(length($colors)));
+    }
+    
+    @return $color;
+  }
+  
+  $available-colors: (
+    #FF0000,
+    #00FF00,
+    #0000FF,
+    #FFFF00,
+    #0095ff 
+  );
+  
+ 
+
+@mixin buttonStyles {
+    background-color: random-color($available-colors);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    margin-right: 2px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

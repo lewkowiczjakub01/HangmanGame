@@ -1,0 +1,63 @@
+@import '../../assets/mixins.scss';
+
+.keyboard {
+  @include buttonStyles;
+}
+
+.Hangman__mistakes {
+  float: right;
+  padding: 5rem 6rem;
+}
+
+.Hangman__image {
+  @include flex-center;
+  padding: 0 0 0 30rem;
+}
+
+.Hangman__keyboard {
+  @include flex-center;
+}
+
+.Hangman__word {
+  @include flex-center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.Hangman__reset {
+  @include flex-center;
+}
+
+.Hangman__reset button {
+  @include buttonStyles;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Hangman__reset button:hover,
+.Hangman__reset button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.Hangman__used-letters {
+  @include flex-center;
+}
+
+.Hangman__stats {
+  @include flex-center;
+}
+
+.Hangman__difficulty {
+  @include flex-center;
+}

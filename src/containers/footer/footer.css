@@ -1,0 +1,30 @@
+.Hangman__footer {
+    display: flex;
+    align-items: center;
+    padding: 2rem 6rem;
+    color: black;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: capitalize;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+        /* ff 3.6+ */
+        background:-moz-radial-gradient(ellipse at 17% 18%, rgba(255, 255, 0, 1) 0%, rgba(130, 238, 141, 1) 100%);
+
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-radial-gradient(ellipse at 17% 18%, rgba(255, 255, 0, 1) 0%, rgba(130, 238, 141, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-radial-gradient(ellipse at 17% 18%, rgba(255, 255, 0, 1) 0%, rgba(130, 238, 141, 1) 100%);
+    
+        /* ie 10+ */
+        background:-ms-radial-gradient(ellipse at 17% 18%, rgba(255, 255, 0, 1) 0%, rgba(130, 238, 141, 1) 100%);
+    
+        /* global 92%+ browsers support */
+        background:radial-gradient(ellipse at 17% 18%, rgba(255, 255, 0, 1) 0%, rgba(130, 238, 141, 1) 100%);
+}

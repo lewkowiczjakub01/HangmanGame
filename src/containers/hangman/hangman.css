@@ -1,0 +1,112 @@
+.keyboard {
+  background-color: #FF0000;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  margin-right: 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap; }
+
+.Hangman__mistakes {
+  float: right;
+  padding: 5rem 6rem; }
+
+.Hangman__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 30rem; }
+
+.Hangman__keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Hangman__word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px; }
+
+.Hangman__reset {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Hangman__reset button {
+  background-color: #0000FF;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  margin-right: 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.Hangman__reset button:hover,
+.Hangman__reset button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15); }
+
+.Hangman__used-letters {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Hangman__stats {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Hangman__difficulty {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=hangman.css.map */
